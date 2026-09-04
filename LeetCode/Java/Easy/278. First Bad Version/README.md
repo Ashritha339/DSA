@@ -8,8 +8,8 @@
 Binary Search, Interactive
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 14 ms
+- **Memory:** 42.1 MB
 
 ---
 
