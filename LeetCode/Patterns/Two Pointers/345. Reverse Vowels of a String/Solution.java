@@ -6,12 +6,12 @@ class Solution {
 
         while(i<j){
             while(i<j&&arr[i]!='a'&&arr[i]!='e'&&arr[i]!='i'&&arr[i]!='o'&&arr[i]!='u'&&
-                   arr[i]!='A'& arr[i] != 'E' && arr[i] != 'I' && arr[i] != 'O' && arr[i] != 'U') {
+                   arr[i]!='A'&&arr[i]!='E'&&arr[i]!='I'&&arr[i]!='O'&&arr[i]!='U'){
                 i++;
             }
 
-            while (i < j && arr[j] != 'a' && arr[j] != 'e' && arr[j] != 'i' && arr[j] != 'o' && arr[j] != 'u' &&
-                   arr[j] != 'A' && arr[j] != 'E' && arr[j] != 'I' && arr[j] != 'O' && arr[j] != 'U') {
+            while(i<j&&arr[j]!='a'&&arr[j]!='e'&&arr[j]!= 'i'&&arr[j]!='o'&&arr[j]!='u'&&
+                   arr[j]!='A'&&arr[j]!='E'&&arr[j]!='I'&&arr[j]!='O'&&arr[j]!='U'){
                 j--;
             }
 
