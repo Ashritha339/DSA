@@ -1,17 +1,16 @@
-class Solution {
-    // Method to compute maximum depth of parentheses
-    public int maxDepth(String s) {
-        int p = 0; 
-        int ans = 0; 
-        for (char ch : s.toCharArray()) {
-            // Increase depth on open parenthesis
-            if (ch == '(') p++;
-            // Decrease depth on close parenthesis
-            else if (ch == ')') p--;
-            // Update maximum depth encountered
-            ans = Math.max(ans, p);
+cclass Solution{
+    public int maxDepth(String s){
+        int count=0;
+        int max=0;
+        for(int i=0;i<s.length();i++){
+            if(s.charAt(i)=='('){
+                count++;
+                max=Math.max(max,count);
+            }
+            else if(s.charAt(i)==')'){
+                count--;
+            }
         }
-        return ans; 
+        return max;
     }
 }
-
