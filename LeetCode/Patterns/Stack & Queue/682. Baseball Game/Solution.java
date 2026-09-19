@@ -1,23 +1,27 @@
 class Solution{
     public int calPoints(String[] operations){
-        int[] arr=new int[operations.length];
-        int top=-1;
+        Stack<Integer> st=new Stack<>();
         int ans=0;
         for(int i=0;i<operations.length;i++){
             if(operations[i].equals("+")){
-                arr[++top]=arr[top-1]+arr[top-2];
-                ans+=arr[top];
+                int x=st.pop();
+                int y=st.peek();
+                st.push(x);
+                st.push(x+y);
+                ans+=x+y;
             }
             else if(operations[i].equals("D")){
-                arr[++top]=2*arr[top-1];
-                ans+=arr[top];
+                int x=2*st.peek();
+                st.push(x);
+                ans+=x;
             }
             else if(operations[i].equals("C")){
-                ans-=arr[top--];
+                ans-=st.pop();
             }
             else{
-                arr[++top]=Integer.parseInt(operations[i]);
-                ans+=arr[top];
+                int x=Integer.parseInt(operations[i]);
+                st.push(x);
+                ans+=x;
             }
         }
         return ans;
