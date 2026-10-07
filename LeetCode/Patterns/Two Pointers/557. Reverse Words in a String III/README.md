@@ -1,6 +1,6 @@
 # 📝 557. Reverse Words in a String III (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/reverse-words-in-a-string-iii/?envType=problem-list-v2&envId=two-pointers)
+🔗 [Problem Link](https://leetcode.com/problems/reverse-words-in-a-string-iii/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,8 +8,8 @@
 Two Pointers, String
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 285 ms
+- **Memory:** 48.3 MB
 
 ---
 
