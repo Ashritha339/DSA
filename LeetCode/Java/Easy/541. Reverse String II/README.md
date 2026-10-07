@@ -1,6 +1,6 @@
 # 📝 541. Reverse String II (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/reverse-string-ii/?envType=problem-list-v2&envId=two-pointers)
+🔗 [Problem Link](https://leetcode.com/problems/reverse-string-ii/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,8 +8,8 @@
 Two Pointers, String
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 1 ms
+- **Memory:** 44.9 MB
 
 ---
 
