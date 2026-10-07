@@ -1,6 +1,6 @@
 # 📝 481. Magical String (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/magical-string/?envType=problem-list-v2&envId=two-pointers)
+🔗 [Problem Link](https://leetcode.com/problems/magical-string)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
