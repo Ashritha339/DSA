@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs Advanced DSA interview preparation list.
 
 ## Progress
-- **Completed:** 2 / 65 (3.1%)
+- **Completed:** 3 / 65 (4.6%)
 
 ---
 
@@ -87,7 +87,7 @@ Track your progress on the Curated 100hrs Advanced DSA interview preparation lis
 - [ ] Basic Calculator
 - [ ] Basic Calculator II
 - [ ] Clumsy Factorial
-- [ ] Decode String
+- [x] [Decode String](./Java/Medium/394. Decode String/)
 - [ ] Decode String at Index
 - [ ] Number of Atoms
 
