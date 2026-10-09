@@ -1,31 +1,30 @@
+
 import java.util.*;
 
 class Solution {
-
     public int lengthOfLongestSubstring(String s) {
+        int max=0;
 
-        HashMap<Character, Integer> table = new HashMap<>();
+        for(int i=0;i<s.length();i++){
+            HashMap<Character,Integer> map=new HashMap<>();
+            int count=0;
 
-        int l = 0;
-        int maxLen = 0;
+            for(int j=i;j<s.length();j++){
+                char ch=s.charAt(j);
 
-        for (int r = 0; r < s.length(); r++) {
+                if(map.containsKey(ch)){
+                    break;
+                }
 
-            char ch = s.charAt(r);
+                map.put(ch,1);
+                count++;
 
-            // If character is already present in the current window
-            if (table.containsKey(ch) && table.get(ch) >= l) {
-                l = table.get(ch) + 1;
+                if(count>max){
+                    max=count;
+                }
             }
-
-            // Store/update the latest index
-            table.put(ch, r);
-
-            // Update maximum length
-            maxLen = Math.max(maxLen, r - l + 1);
         }
 
-        return maxLen;
+        return max;
     }
 }
-
