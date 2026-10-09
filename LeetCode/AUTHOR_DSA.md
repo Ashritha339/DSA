@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ## Progress
-- **Completed:** 17 / 238 (7.1%)
+- **Completed:** 18 / 238 (7.6%)
 
 ---
 
@@ -98,7 +98,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 ### 📂 MODULE  3.5: SORTINGBASED THINKING Sort
 - [ ] Sort Colors
 - [ ] Sort Array by Parity
-- [ ] Squares of a Sorted Array
+- [x] [Squares of a Sorted Array](./Java/Easy/1019. Squares of a Sorted Array/)
 - [ ] Third Maximum Number
 - [ ] Maximum Product of Three Numbers
 - [ ] Largest Number At Least Twice of Others
