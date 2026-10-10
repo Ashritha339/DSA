@@ -8,8 +8,8 @@
 Array, Math, Recursion, Queue, Simulation
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 3 ms
+- **Memory:** 42.5 MB
 
 ---
 
