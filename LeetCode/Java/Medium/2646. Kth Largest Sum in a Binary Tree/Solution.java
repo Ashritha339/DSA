@@ -29,7 +29,7 @@ class Solution{
             }
             al.add(sum);
         }
-        
+        if(al.size()<k)return -1;
         Collections.sort(al);
         Collections.reverse(al);
         return al.get(k-1);
