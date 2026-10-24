@@ -1,6 +1,6 @@
 # 📝 515. Find Largest Value in Each Tree Row (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/find-largest-value-in-each-tree-row)
+🔗 [Problem Link](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,8 +8,8 @@
 Tree, Depth-First Search, Breadth-First Search, Binary Tree
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 2 ms
+- **Memory:** 47.2 MB
 
 ---
 
