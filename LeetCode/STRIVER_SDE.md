@@ -3,7 +3,7 @@
 Track your progress on the Striver's SDE Sheet top interview problems.
 
 ## Progress
-- **Completed:** 19 / 76 (25.0%)
+- **Completed:** 20 / 76 (26.3%)
 
 ---
 
@@ -78,7 +78,7 @@ Track your progress on the Striver's SDE Sheet top interview problems.
 - [x] [Binary Tree Level Order Traversal](./Java/Medium/102. Binary Tree Level Order Traversal/)
 - [ ] Maximum Depth of Binary Tree
 - [x] [Diameter of Binary Tree](./Java/Easy/543. Diameter of Binary Tree/)
-- [ ] Balanced Binary Tree
+- [x] [Balanced Binary Tree](./Java/Easy/110. Balanced Binary Tree/)
 - [ ] Lowest Common Ancestor of a Binary Tree
 - [x] [Same Tree](./Java/Easy/100. Same Tree/)
 - [x] [Binary Tree Zigzag Level Order Traversal](./Java/Medium/103. Binary Tree Zigzag Level Order Traversal/)
