@@ -1,6 +1,6 @@
 # 📝 145. Binary Tree Postorder Traversal (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/binary-tree-postorder-traversal)
+🔗 [Problem Link](https://leetcode.com/problems/binary-tree-postorder-traversal/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
