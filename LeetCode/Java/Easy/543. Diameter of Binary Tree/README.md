@@ -8,8 +8,8 @@
 Tree, Depth-First Search, Binary Tree, DP on Trees
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 195 ms
+- **Memory:** 48.3 MB
 
 ---
 
