@@ -13,15 +13,29 @@
  *     }
  * }
  */
-class Solution {
-    public boolean hasPathSum(TreeNode root, int targetSum) {
-        if(root==null){
-            return false;
-        }
-        if(root.left==null&&root.right==null){
-    return targetSum==root.val;
-}
-        return hasPathSum(root.left,targetSum-root.val)|| hasPathSum(root.right,targetSum-root.val);
 
+class Solution {
+    public List<List<Integer>> hasPathSum(TreeNode root, int targetSum) {
+        List<List<Integer>> ans = new ArrayList<>();
+        dfs(root, targetSum, new ArrayList<>(), ans);
+        return ans;
+    }
+
+    private void dfs(TreeNode root, int targetSum,
+                     List<Integer> path, List<List<Integer>> ans) {
+        if (root == null) return;
+
+        path.add(root.val);
+
+        if (root.left == null && root.right == null) {
+            if (targetSum == root.val) {
+                ans.add(new ArrayList<>(path));
+            }
+        } else {
+            dfs(root.left, targetSum - root.val, path, ans);
+            dfs(root.right, targetSum - root.val, path, ans);
+        }
+
+        path.remove(path.size() - 1);
     }
 }
