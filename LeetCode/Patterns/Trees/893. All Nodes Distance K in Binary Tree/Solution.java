@@ -24,7 +24,7 @@ class Solution {
         while (!queue.isEmpty() && distance < k) {
             int size = queue.size();
 
-            while (size != 0) {
+            while (size-- > 0) {
                 TreeNode curr = queue.poll();
 
                 if (curr.left != null && visited.add(curr.left))
@@ -54,6 +54,7 @@ class Solution {
             return;
 
         parent.put(root, par);
+
         buildParent(root.left, root);
         buildParent(root.right, root);
     }
