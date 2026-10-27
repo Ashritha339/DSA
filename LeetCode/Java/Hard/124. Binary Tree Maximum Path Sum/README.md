@@ -1,6 +1,6 @@
 # 📝 124. Binary Tree Maximum Path Sum (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/binary-tree-maximum-path-sum)
+🔗 [Problem Link](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Hard-red) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
