@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ## Progress
-- **Completed:** 30 / 238 (12.6%)
+- **Completed:** 31 / 238 (13.0%)
 
 ---
 
@@ -251,7 +251,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 - [ ] Spiral Order Traversal
 - [ ] Search in 2D Matrix
 - [ ] Search in 2D Matrix II
-- [ ] Set Matrix Zeroes
+- [x] [Set Matrix Zeroes](./Java/Medium/73. Set Matrix Zeroes/)
 - [ ] Flip and Invert Image
 - [ ] Max Consecutive Ones in Matrix
 - [ ] Matrix Diagonal Traverse
