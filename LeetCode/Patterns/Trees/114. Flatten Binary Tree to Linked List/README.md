@@ -8,8 +8,8 @@
 Linked List, Stack, Tree, Depth-First Search, Binary Tree
 
 ### 🚀 Performance
-- **Runtime:** 1 ms
-- **Memory:** 43.5 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 
