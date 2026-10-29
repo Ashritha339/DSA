@@ -1,6 +1,6 @@
 # 📝 114. Flatten Binary Tree to Linked List (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/flatten-binary-tree-to-linked-list)
+🔗 [Problem Link](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,8 +8,8 @@
 Linked List, Stack, Tree, Depth-First Search, Binary Tree
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 1 ms
+- **Memory:** 43.5 MB
 
 ---
 
