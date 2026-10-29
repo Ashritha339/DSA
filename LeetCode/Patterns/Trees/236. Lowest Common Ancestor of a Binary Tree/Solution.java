@@ -8,25 +8,36 @@
  * }
  */
 class Solution {
+    Map<TreeNode, TreeNode> parent = new HashMap<>();
+
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        if (root == null || root == p || root == q) {
-            return root;
+        findParent(root, null);
+
+        HashSet<TreeNode> set = new HashSet<>();
+
+        while (p != null) {
+            set.add(p);
+            p = parent.get(p);
         }
 
-        TreeNode left = lowestCommonAncestor(root.left, p, q);
-        TreeNode right = lowestCommonAncestor(root.right, p, q);
+        while (q != null) {
+            if (set.contains(q)) {
+                return q;
+            }
+            q = parent.get(q);
+        }
 
-        if (left != null && right != null) {
-            return root;
+        return null;
+    }
+
+    public void findParent(TreeNode root, TreeNode par) {
+        if (root == null) {
+            return;
         }
-        else if (right == null && left != null) {
-            return left;
-        }
-        else if (right != null && left == null) {
-            return right;
-        }
-        else {
-            return null;
-        }
+
+        parent.put(root, par);
+
+        findParent(root.left, root);
+        findParent(root.right, root);
     }
 }
