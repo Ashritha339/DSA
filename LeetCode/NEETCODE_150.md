@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 29 / 150 (19.3%)
+- **Completed:** 30 / 150 (20.0%)
 
 ---
 
@@ -67,7 +67,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 - [ ] Reverse Nodes in k-Group
 
 ### 📂 Trees
-- [ ] Invert Binary Tree
+- [x] [Invert Binary Tree](./Java/Easy/226. Invert Binary Tree/)
 - [x] [Maximum Depth of Binary Tree](./Java/Easy/104. Maximum Depth of Binary Tree/)
 - [x] [Diameter of Binary Tree](./Java/Easy/543. Diameter of Binary Tree/)
 - [x] [Balanced Binary Tree](./Java/Easy/110. Balanced Binary Tree/)
