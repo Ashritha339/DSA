@@ -1,11 +1,14 @@
 class Solution {
     public int rob(int[] nums) {
-        return Math.max(solve(nums, 0 ),solve(nums,1));
+        int memo[]=new int[nums.length+1];
+        Arrays.fill(memo,-1);
+        return Math.max(solve(nums, 0,memo ),solve(nums,1,memo));
     }
-    public int solve(int[] nums, int i){
+    public int solve(int[] nums, int i,int memo[]){
         if(i>=nums.length) return 0;
-        int steal = nums[i]+solve(nums, i+2);
-        int skip = solve(nums, i+1);
-        return Math.max(steal, skip);
+        if(memo[i]!=-1)return memo[i];
+        int steal = nums[i]+solve(nums, i+2,memo);
+        int skip = solve(nums, i+1,memo);
+        return memo[i]=Math.max(steal, skip);
     }
 }
