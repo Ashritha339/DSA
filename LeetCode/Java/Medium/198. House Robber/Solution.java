@@ -5,7 +5,7 @@ class Solution {
     public int solve(int[] nums, int i){
         if(i>=nums.length) return 0;
         int steal = nums[i]+solve(nums, i+2);
-        int skip = solve(nums, i+2);
+        int skip = solve(nums, i+1);
         return Math.max(steal, skip);
     }
 }
