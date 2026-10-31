@@ -1,6 +1,6 @@
 class Solution {
     public int rob(int[] nums) {
-        return solve(nums, 0, nums.length);
+        return Math.solve(nums, 0, nums.length);
     }
     public int solve(int[] nums, int i, int n){
         if(i>=n) return 0;
