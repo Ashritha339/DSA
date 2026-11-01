@@ -1,29 +1,23 @@
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> ans = new ArrayList<>();
-        solve(nums, "", ans);
+        solve(nums, 0, new ArrayList<>(), ans);
         return ans;
     }
 
-    public void solve(int[] ip, String op, List<List<Integer>> ans) {
+    public void solve(int nums[], int index, ArrayList<Integer> op, List<List<Integer>> ans) {
 
-        if (ip.length == 0) {
-            List<Integer> temp = new ArrayList<>();
-            for (int i = 0; i < op.length(); i++) {
-                temp.add(op.charAt(i) - '0');
-            }
-            ans.add(temp);
+        if (index == nums.length) {
+            ans.add(op);
             return;
         }
 
-        String op1 = op;
-        String op2 = op;
+        ArrayList<Integer> op1 = new ArrayList<>(op);
+        ArrayList<Integer> op2 = new ArrayList<>(op);
 
-        op2 = op2 + ip[0];
+        op2.add(nums[index]);
 
-        ip = Arrays.copyOfRange(ip, 1, ip.length);
-
-        solve(ip, op1, ans);
-        solve(ip, op2, ans);
+        solve(nums, index + 1, op1, ans);
+        solve(nums, index + 1, op2, ans);
     }
 }
