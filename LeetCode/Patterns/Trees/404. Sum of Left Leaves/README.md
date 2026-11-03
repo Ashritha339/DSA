@@ -1,6 +1,6 @@
 # 📝 404. Sum of Left Leaves (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/sum-of-left-leaves)
+🔗 [Problem Link](https://leetcode.com/problems/sum-of-left-leaves/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
