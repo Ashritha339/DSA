@@ -1,6 +1,6 @@
 # 📝 257. Binary Tree Paths (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/binary-tree-paths/?envType=problem-list-v2&envId=tree)
+🔗 [Problem Link](https://leetcode.com/problems/binary-tree-paths/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,8 +8,8 @@
 String, Backtracking, Tree, Depth-First Search, Binary Tree
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 1 ms
+- **Memory:** 43.1 MB
 
 ---
 
