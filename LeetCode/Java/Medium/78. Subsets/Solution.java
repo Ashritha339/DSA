@@ -1,23 +1,18 @@
 class Solution {
-    public List<List<Integer>> subsets(int[] nums) {
-        List<List<Integer>> ans = new ArrayList<>();
-        solve(nums, 0, new ArrayList<>(), ans);
-        return ans;
-    }
-
-    public void solve(int nums[], int index, ArrayList<Integer> op, List<List<Integer>> ans) {
-
-        if (index == nums.length) {
-            ans.add(op);
+    List<List<Integer>> ans=new ArrayList<>();
+    void find(int arr[],int idx,ArrayList<Integer> al) {
+        if(idx>=arr.length){
+            ans.add(new ArrayList<>(al));
             return;
         }
-
-        ArrayList<Integer> op1 = new ArrayList<>(op);
-        ArrayList<Integer> op2 = new ArrayList<>(op);
-
-        op2.add(nums[index]);
-
-        solve(nums, index + 1, op1, ans);
-        solve(nums, index + 1, op2, ans);
+        al.add(arr[idx]);
+        find(arr, idx+1, al);
+        al.remove(al.size()-1);
+        find(arr,idx+1,al);
+    }
+    public List<List<Integer>> subsets(int[] nums) {
+        ans=new ArrayList<>();
+        find(nums,0,new ArrayList<>());
+        return ans;
     }
 }
