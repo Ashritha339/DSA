@@ -8,8 +8,8 @@
 Math, Recursion
 
 ### 🚀 Performance
-- **Runtime:** Successfully Evaluated
-- **Memory:** N/A
+- **Runtime:** 1 ms
+- **Memory:** 47.7 MB
 
 ---
 
@@ -17,7 +17,7 @@ Math, Recursion
 
 Implement  [pow(x, n)](http://www.cplusplus.com/reference/valarray/pow/) , which calculates  `x`  raised to the power  `n`  (i.e.,  `xn` ).
 
-OriginalJava **Example 1:**
+**Example 1:**
 
 ```
 Input: x = 2.00000, n = 10
