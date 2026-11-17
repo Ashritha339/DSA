@@ -14,7 +14,7 @@ class Solution {
         return count-1;
     }
     private void dfs(int[][] grid2,int i,int j){
-        if(i<0||i>=grid2.length||j<0||j>=grid2.length||grid2[i][j]==0){
+        if(i<0||i>=grid2.length||j<0||j>=grid2[i].length||grid2[i][j]==0){
             return;
         }
         grid2[i][j]=0;
