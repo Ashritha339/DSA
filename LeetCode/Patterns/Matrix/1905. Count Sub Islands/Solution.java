@@ -11,22 +11,28 @@ class Solution {
                 }
             }
         }
-        return count-1;
+        return count;
     }
-    private void dfs(int[][] grid2,int i,int j,int[][] grid1){
-        if(i<0||i>=grid2.length||j<0||j>=grid2[i].length||grid2[i][j]==0){
-            return;
-        }
-       
+    
 
-        
-        grid2[i][j]=0;
-        dfs(grid2,i,j+1,grid1);
-        dfs(grid2,i+1,j,grid1);
-        dfs(grid2,i-1,j,grid1);
-        dfs(grid2,i,j-1,grid1);
-        }
-        
 
+    private boolean dfs(int[][] grid2, int i, int j, int[][] grid1) {
+        if (i < 0 || i >= grid2.length || j < 0 || j >= grid2[0].length || grid2[i][j] == 0) {
+            return true;
+        }
+
+        grid2[i][j] = 0;
+
+        boolean valid = (grid1[i][j] == 1);
+
+        boolean right = dfs(grid2, i, j + 1, grid1);
+        boolean down = dfs(grid2, i + 1, j, grid1);
+        boolean up = dfs(grid2, i - 1, j, grid1);
+        boolean left = dfs(grid2, i, j - 1, grid1);
+
+        return valid && right && down && up && left;
     }
+}
+
+    
     
