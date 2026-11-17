@@ -1,6 +1,6 @@
 # 📝 1905. Count Sub Islands (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/count-sub-islands/solutions/)
+🔗 [Problem Link](https://leetcode.com/problems/count-sub-islands/solutions/1284306/98-faster-simple-approach-well-explained-kez7/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,7 +8,7 @@
 Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix
 
 ### 🚀 Performance
-- **Runtime:** Successfully Evaluated
+- **Runtime:** N/A
 - **Memory:** N/A
 
 ---
