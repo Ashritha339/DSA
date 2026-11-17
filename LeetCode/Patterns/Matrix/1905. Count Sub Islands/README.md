@@ -1,6 +1,6 @@
 # 📝 1905. Count Sub Islands (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/count-sub-islands)
+🔗 [Problem Link](https://leetcode.com/problems/count-sub-islands/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
